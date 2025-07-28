@@ -1,0 +1,48 @@
+# Maven
+/target
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore target folders inside modules (handled well)
+/**/target/
+/**/build/
+
+# Project files
+HELP.md
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# Spring Boot DevTools
+spring-boot-devtools-runtime.*
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS/System files
+.DS_Store
+Thumbs.db
